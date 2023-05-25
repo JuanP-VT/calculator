@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.body {
+  width: 500px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #aaaaaa;
+}
+.screen {
+  height: 20%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #eeeeee;
+}
+.screen p {
+  text-align: end;
+  padding: 5px;
+  font-size: 40px;
+}
+.numPad {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.numPad .topButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topButtons div {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.clear {
+  background-color: #aaaaff;
+}
+.clear:hover {
+  background-color: #8888ce;
+}
+.delete {
+  background-color: #ffaaaa;
+}
+.delete:hover {
+  background-color: #cc8787;
+}
+.mainButtons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.mainButtons div {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 80px;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  background-color: #eeeeee;
+}
+.mainButtons :hover {
+  background-color: #cecccc;
+  cursor: pointer;
+}

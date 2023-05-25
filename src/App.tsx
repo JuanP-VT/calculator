@@ -1,9 +1,12 @@
 import "./App.css";
+import CalculatorDisplay from "./components/CalculatorDisplay";
 
 function App() {
   return (
     <>
-      <div>hi</div>
+      <div className="container">
+        <CalculatorDisplay />
+      </div>
     </>
   );
 }
