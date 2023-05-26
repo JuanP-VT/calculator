@@ -9,8 +9,8 @@
   margin-top: 50px;
 }
 .body {
-  width: 500px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
   border: 2px solid black;
   border-radius: 10px;
   display: flex;
@@ -24,14 +24,18 @@
   border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: end;
   align-items: end;
   background-color: #eeeeee;
 }
-.screen p {
-  text-align: end;
-  padding: 5px;
-  font-size: 40px;
+.screen div {
+  height: 50%;
+  padding: 10px;
+}
+
+.screen .bot {
+  font-size: 30px;
 }
 .numPad {
   height: 70%;
@@ -47,8 +51,8 @@
 .topButtons div {
   display: flex;
   justify-content: center;
-  height: 50px;
-  width: 230px;
+  height: 40px;
+  width: 150px;
   border: 2px solid black;
   border-radius: 5px;
   cursor: pointer;
@@ -79,7 +83,8 @@
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  height: 80px;
+  height: 60px;
+  width: 65px;
   border-radius: 5px;
   justify-content: center;
   text-align: center;

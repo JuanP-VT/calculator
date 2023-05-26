@@ -3,7 +3,8 @@ function CalculatorDisplay() {
     <>
       <div className="body">
         <div className="screen">
-          <p>0</p>
+          <div className="top">top</div>
+          <div className="bot">bot</div>
         </div>
         <div className="numPad">
           <div className="topButtons">
